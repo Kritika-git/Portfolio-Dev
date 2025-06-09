@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Kritika-git/Portfolio-Dev/static/css/main.c0dbeae1.css",
+    "main.js": "/Kritika-git/Portfolio-Dev/static/js/main.a3e9084d.js",
+    "static/css/64.bba8fa55.chunk.css": "/Kritika-git/Portfolio-Dev/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/Kritika-git/Portfolio-Dev/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/Kritika-git/Portfolio-Dev/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.dcb36a22.chunk.js": "/Kritika-git/Portfolio-Dev/static/js/769.dcb36a22.chunk.js",
+    "static/media/ProfilePic.png": "/Kritika-git/Portfolio-Dev/static/media/ProfilePic.1ee7702446cb1f30ec73.png",
+    "static/media/journeyBot.png": "/Kritika-git/Portfolio-Dev/static/media/journeyBot.29779dfdf45f096f7d4b.png",
+    "static/media/HiTECH.png": "/Kritika-git/Portfolio-Dev/static/media/HiTECH.784ed8457c5277f4fa63.png",
+    "static/media/Montserrat-Regular.ttf": "/Kritika-git/Portfolio-Dev/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/Kritika-git/Portfolio-Dev/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/resume.pdf": "/Kritika-git/Portfolio-Dev/static/media/resume.9e3ce2bc63fd720a26cd.pdf",
+    "static/media/contactMailDark.svg": "/Kritika-git/Portfolio-Dev/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/quoraLogo.png": "/Kritika-git/Portfolio-Dev/static/media/quoraLogo.85eb29f4d52320c8ed99.png",
+    "static/media/developerActivity.svg": "/Kritika-git/Portfolio-Dev/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/airbnbLogo.png": "/Kritika-git/Portfolio-Dev/static/media/airbnbLogo.e8497507db673acd3991.png",
+    "static/media/udemyLogo.jpg": "/Kritika-git/Portfolio-Dev/static/media/udemyLogo.38ffb0a9afe24405317f.jpg",
+    "static/media/facebookLogo.png": "/Kritika-git/Portfolio-Dev/static/media/facebookLogo.f46d68b24e9b4f73ee8b.png",
+    "static/media/heritageLogo.png": "/Kritika-git/Portfolio-Dev/static/media/heritageLogo.5c8fb48f7ae77537d656.png",
+    "static/media/acmLogo.png": "/Kritika-git/Portfolio-Dev/static/media/acmLogo.a138757a9c5fad7dfd5e.png",
+    "static/media/skill.svg": "/Kritika-git/Portfolio-Dev/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/Kritika-git/Portfolio-Dev/index.html",
+    "static/media/talksCardBack.svg": "/Kritika-git/Portfolio-Dev/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.c0dbeae1.css.map": "/Kritika-git/Portfolio-Dev/static/css/main.c0dbeae1.css.map",
+    "main.a3e9084d.js.map": "/Kritika-git/Portfolio-Dev/static/js/main.a3e9084d.js.map",
+    "64.bba8fa55.chunk.css.map": "/Kritika-git/Portfolio-Dev/static/css/64.bba8fa55.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/Kritika-git/Portfolio-Dev/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/Kritika-git/Portfolio-Dev/static/css/769.b3cbb36b.chunk.css.map",
+    "769.dcb36a22.chunk.js.map": "/Kritika-git/Portfolio-Dev/static/js/769.dcb36a22.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0dbeae1.css",
+    "static/js/main.a3e9084d.js"
+  ]
+}
