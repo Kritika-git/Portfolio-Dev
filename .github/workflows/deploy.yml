@@ -30,7 +30,7 @@ jobs:
           node-version: 18.x
 
       - name: Update npm 🚀
-        run: npm install -g npm@latest
+        run: npm install -g npm@10.5.0
 
       - name: Install and Build 🔧
         run: |
