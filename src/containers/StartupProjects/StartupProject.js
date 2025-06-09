@@ -31,7 +31,9 @@ export default function StartupProject() {
           >
             {bigProjects.subtitle}
           </p>
+            
 
+            
           <div className="projects-container">
             {bigProjects.projects.map((project, i) => {
               return (
@@ -87,6 +89,7 @@ export default function StartupProject() {
               );
             })}
           </div>
+          
         </div>
       </div>
     </Fade>

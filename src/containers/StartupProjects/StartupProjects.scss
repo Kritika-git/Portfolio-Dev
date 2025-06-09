@@ -1,9 +1,10 @@
 @import "../../_globalColor";
 
 .card-image {
-  max-width: 100%;
-  height: auto;
-  width: 250px;
+  width: 100% !important;
+  height: 400px;        // or 300px or whatever looks good
+  object-fit: cover;    // zoom and fill the container
+  display: block;
 }
 .card-title {
   color: $titleColor;
@@ -18,12 +19,14 @@
   line-height: 1.5rem;
 }
 .project-card {
-  display: flex;
-  flex-direction: column;
-  background-color: $lightBackground2;
+  max-width: 700px;
+  margin: 0 auto;
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
+  background-color: $lightBackground2;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .project-card-light {
@@ -50,18 +53,18 @@
   box-shadow: 0px 20px 30px -10px $darkBoxShadow;
 }
 .project-image {
-  position: relative;
-  height: 250px;
-  overflow: hidden;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
+  max-width: 650px;
 }
 
 .project-card-footer span.project-tag {
