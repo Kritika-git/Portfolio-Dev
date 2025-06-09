@@ -7,12 +7,10 @@ export default function EducationCard({school}) {
   const imgRef = createRef();
 
   const GetDescParagraph = ({descBullets}) => {
-  return descBullets && descBullets.length > 0 ? (
-    <p className="subTitle">
-      {descBullets.join(" ")}
-    </p>
-  ) : null;
-};
+    return descBullets && descBullets.length > 0 ? (
+      <p className="subTitle">{descBullets.join(" ")}</p>
+    ) : null;
+  };
   const {isDark} = useContext(StyleContext);
 
   if (!school.logo)

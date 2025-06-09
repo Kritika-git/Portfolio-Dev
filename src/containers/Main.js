@@ -58,7 +58,7 @@ const Main = () => {
             <WorkExperience />
             <StartupProject />
             <Projects />
-            
+
             <Achievement />
             <Blogs />
             <Talks />

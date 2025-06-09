@@ -1,4 +1,3 @@
-
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 import {
@@ -11,7 +10,7 @@ import {
   SiMongodb,
   SiNpm,
   SiMysql,
-   SiAmazonwebservices,
+  SiAmazonwebservices,
   SiFirebase,
   SiPython,
   SiCplusplus,
@@ -36,7 +35,7 @@ const illustration = {
 const greeting = {
   username: "Kritika Singh",
   title: "Hi all, I'm Kritika",
-  subTitle: 
+  subTitle:
     "A passionate Full Stack Software Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
   resumeLink:
     "https://drive.google.com/file/d/1_awLuQYL6U3gNAzNYj9luultRvgoG2f1/view?usp=sharing", // Set to empty to hide the button
@@ -58,10 +57,10 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
+    emoji("⚡Crafting sleek and dynamic UIs with React and modern JavaScript"),
     emoji(
-      "⚡Crafting sleek and dynamic UIs with React and modern JavaScript"
+      "⚡Building full-stack apps, REST APIs, and working with MongoDB & Express"
     ),
-    emoji("⚡Building full-stack apps, REST APIs, and working with MongoDB & Express"),
     emoji(
       "⚡Passionate about DSA, problem-solving, and diving into open-source contributions"
     )
@@ -71,22 +70,22 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    { skillName: "HTML5", icon: <SiHtml5 /> },
-    { skillName: "CSS3", icon: <SiCss3 /> },
-    { skillName: "JavaScript", icon: <SiJavascript /> },
-    { skillName: "ReactJS", icon: <SiReact /> },
-    { skillName: "NodeJS", icon: <SiNodedotjs /> },
-    { skillName: "ExpressJS", icon: <SiExpress /> },
-    { skillName: "MongoDB", icon: <SiMongodb /> },
-    { skillName: "npm", icon: <SiNpm /> },
-    { skillName: "SQL", icon: <SiMysql /> },
-    { skillName: "AWS", icon: < SiAmazonwebservices /> },
-    { skillName: "Firebase", icon: <SiFirebase /> },
-    { skillName: "Python", icon: <SiPython /> },
-    { skillName: "C++", icon: <SiCplusplus /> },
- 
-    { skillName: "Git", icon: <SiGit /> },
-    { skillName: "Postman", icon: <SiPostman /> }
+    {skillName: "HTML5", icon: <SiHtml5 />},
+    {skillName: "CSS3", icon: <SiCss3 />},
+    {skillName: "JavaScript", icon: <SiJavascript />},
+    {skillName: "ReactJS", icon: <SiReact />},
+    {skillName: "NodeJS", icon: <SiNodedotjs />},
+    {skillName: "ExpressJS", icon: <SiExpress />},
+    {skillName: "MongoDB", icon: <SiMongodb />},
+    {skillName: "npm", icon: <SiNpm />},
+    {skillName: "SQL", icon: <SiMysql />},
+    {skillName: "AWS", icon: <SiAmazonwebservices />},
+    {skillName: "Firebase", icon: <SiFirebase />},
+    {skillName: "Python", icon: <SiPython />},
+    {skillName: "C++", icon: <SiCplusplus />},
+
+    {skillName: "Git", icon: <SiGit />},
+    {skillName: "Postman", icon: <SiPostman />}
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -102,11 +101,10 @@ const educationInfo = {
       subHeader: "Bachelor of Technology in Computer Science",
       duration: "September 2022 - June 2026",
       desc: "GPA : 8.63 (Till 5th Sem) ",
-      descBullets: ["Relevant Courses: Object Oriented Programming, Operating Systems, Database Management Systems, Computer Networks"]
-        
-      
+      descBullets: [
+        "Relevant Courses: Object Oriented Programming, Operating Systems, Database Management Systems, Computer Networks"
+      ]
     }
-  
   ]
 };
 
@@ -181,16 +179,15 @@ const bigProjects = {
     {
       image: require("./assets/images/journeyBot.png"),
       projectName: "JourneyBot - AI Trip Planner",
-      projectDesc: "AI-powered trip planner designed to help users effortlessly plan their travel itineraries.",
+      projectDesc:
+        "AI-powered trip planner designed to help users effortlessly plan their travel itineraries.",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://ai-travel-plan-alpha.vercel.app/"
         }
-     
       ]
     }
-    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -206,8 +203,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "ACM Brainstorm '24- 2nd Runner Up",
-      subtitle:
-        "",
+      subtitle: "",
       image: require("./assets/images/acmLogo.png"),
       imageAlt: "ACM- Student Chapter",
       footerLink: [
@@ -215,13 +211,11 @@ const achievementSection = {
           name: "Certification",
           url: "https://drive.google.com/file/d/1vjkP4-MldfnRE4--ZCO098ZPVWTggGgR/view?usp=sharing"
         }
-        
       ]
     },
     {
       title: "Editor and Co-founder of HI-Tech Magazine",
-      subtitle:
-        "",
+      subtitle: "",
       image: require("./assets/images/HiTECH.png"),
       imageAlt: "Hi-Tech Magazine Logo",
       footerLink: [
@@ -229,7 +223,6 @@ const achievementSection = {
           name: "Latest Edition Link",
           url: "https://drive.google.com/file/d/1MzAPWLegKVPk-bG3H42BHZW9ImTb37Ey/view?usp=sharing"
         }
-        
       ]
     },
     {
@@ -252,7 +245,10 @@ const achievementSection = {
       image: require("./assets/images/udemyLogo.jpg"),
       imageAlt: "Udemy Logo",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1K6cvkSEw2kh-diHAynpYAp56KvtGi1nh/view?usp=sharing"},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1K6cvkSEw2kh-diHAynpYAp56KvtGi1nh/view?usp=sharing"
+        }
       ]
     }
   ],
